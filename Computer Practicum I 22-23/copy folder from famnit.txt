@@ -1,0 +1,6 @@
+scp -r 89221056@student.famnit.upr.si:/home/studenti/famnit/89221056/Desktop/java/ ./		//run in bash only
+
+
+crontab				//a list of commands you want to execute in specific time
+
+tracert

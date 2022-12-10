@@ -1,0 +1,69 @@
+https://linuxhint.com/grep_egrep_regex/
+
+
+
+emacs names.txt					/create names.txt
+
+cat names.txt					//check what is stored inside
+
+nano names.txt					//create or edit .txt file
+
+cat names						//view what's inside the .txt file
+
+cat names.txt | egrep ^			//print all starting lines  
+
+cat names.txt | egrep ^M			//find lines strting with M
+
+cat names.txt | egrep ^M*.a$			//find all lines starting with M and ending with a
+egrep [a-zA-Z]*a$ names.txt			//find all lines starting with M and ending with a with any number of letters in between
+
+
+cat names.txt | egrep a$			//find all lines edning with a
+egrip a$ names.txt
+
+cat names.txt | egrep "[A-Za-z]{3,}a$"	//find lines ending with a and have at least three elements before a
+
+cat names.txt | egrep "[A-Za-z]{3}a$"	//find lines ending with a and have exactly 4 characters before
+
+
+
+egrep "^[ML]" names.txt
+egrep "^(M|L)"
+
+
+echo lola >>names.txt
+
+echo LOLA >> names.txt				//add string without using the editor
+
+cat names.txt
+
+egrep "(L|l)(O|o)(L|l)(A|a)" names.txt
+
+egrep "^(Marjan)[A-Za-z]+" names.txt
+
+ls -lah bbb.txt
+
+ls -lah bbb.txt | egrep "(txt)$"
+
+locate -r "txt$" -b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+egrep "(LOLA|lola)"
+
+
+
+
+

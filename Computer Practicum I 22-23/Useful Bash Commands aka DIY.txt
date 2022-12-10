@@ -1,0 +1,11 @@
+sudo micro .bashrc		//set default directory, ruun from bash
+
+ubuntu --config-user [root]	//set default user, rub from cmd or similar
+
+(sudo) adduser [username]	//add new user, run from bash
+
+(sudo) deluser [USERNAME]	//delete user, run from bash-root
+
+su - [USERNAME]			//switch user, run from bash
+
+

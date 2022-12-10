@@ -1,0 +1,12 @@
+first attempt: 
+    copy and paste only and then compile
+        result: error
+
+second attempt: 
+    complete main method on second line and add ';' on sixth line 
+        result: 0
+
+tird and final attempt: 
+    change integer type of b to double (line 4)
+        result: 3.345685835669305E263
+    

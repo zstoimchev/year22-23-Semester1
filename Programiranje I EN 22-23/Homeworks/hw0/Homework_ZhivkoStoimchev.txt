@@ -1,0 +1,18 @@
+Hello, World!(Computer) programs communicate in programming languages (PL), 
+people communicate in natural languages. Try to translate these concepts 
+from the computer world in the "human" world?
+a) programming
+b) program
+c) PL syntax
+Can you think of any other word from the computer world and its "duplicate" in the "human" world?
+
+
+Submit your answers in a text file (ASCII text is preferred).
+
+Answers:
+
+a) Programming is a proces of writing a computer program, and what that means that 
+people are writing computer programs with dedicated programming language, which machines (computers) understand.
+b) Program is an application that does certain task. More precisely, a program does what we tell it to do.
+c) PL syntax is the programming language's key words, like grammatic in human language, which we must follow.
+Otherwise, our compiler wont understand our instructions and will give us errors.
