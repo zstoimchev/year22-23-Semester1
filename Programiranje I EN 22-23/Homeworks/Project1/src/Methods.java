@@ -1,4 +1,5 @@
 public class Methods {
+
     public static int length(int[] arr) {
         return arr.length;
     }
@@ -57,7 +58,7 @@ public class Methods {
     public static String maximumOccurence(int[] arr) {
         int maxcount = 1;
         int frequ = 0;
-        String RESULT = "No repeating numbers";
+        String RESULT = "/"; // '/' stands for no repeating numbers
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
             for (int j = 0; j < arr.length; j++) {
@@ -83,30 +84,26 @@ public class Methods {
         return arr[1];
     }
 
-    public static float averageNumber(int[] arr) {
+    public static float averageNumber(int[] arr) { // round decimals
         int sum = 0;
         for (int i = 0; i < arr.length; i++)
             sum += arr[i];
         return (float) sum / (arr.length);
-        // return Arrays.stream(arr).average().getAsDouble();
-        // return Arrays.stream(arr).average().orElse(Double.NaN);
     }
 
-    public static double standardDeviation(int[] arr) { // NOT DONE=======================
+    public static double standardDeviation(int[] arr) {
         double diviation = 0;
         for (int i = 0; i < arr.length; i++)
-            diviation += Math.pow((arr[i] - Methods.averageNumber(arr)), 2);
+            diviation += Math.pow((arr[i] - averageNumber(arr)), 2);
         return Math.sqrt(diviation / (arr.length - 1));
     }
 
     public static double median(int[] arr) {// ======================================
         double result = 0;
-        // double ceil = Math.ceil(arr.length / 2);
-        // double floor = Math.floor(arr.length / 2);
         if (arr.length % 2 == 0)
-            result = (double) (arr[arr.length / 2] + arr[(arr.length / 2) - 1]) / 2;
+            result = (arr[arr.length / 2] + arr[(arr.length / 2) - 1]) / 2;
         else
-            result = (int) arr[(int) (Math.floor(arr.length / 2))];
+            result = arr[((arr.length + 1) / 2) - 1];
         return result;
     }
 
@@ -117,6 +114,10 @@ public class Methods {
         return sum;
     }
 
+    // this function is later used in checking palindromes, because it is needed in
+    // more than one place, i decided to make it as a function not to write
+    // repeating code many times. It only returns reversed numbers, does not check
+    // anything
     public static int reversed(int n) {
         int temp = n, reversed = 0;
         if (temp > 0)

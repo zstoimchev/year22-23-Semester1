@@ -1,26 +1,22 @@
-import java.util.Scanner;
+import java.util.Scanner;;
 
-public class Main {
+public class apscal {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Insert n: ");
-        int n = scan.nextInt();
-
-        System.out.print("Insert k: ");
-        int k = scan.nextInt();
-
-        // if the inputer numbers doesn't fulfill the requested condition, the program
-        // exits with code 0
-        if (n < k || k < 0)
-            System.exit(0);
-
-        System.out.println("Result: " + result(n, k));
+        int n=scan.nextInt();
+        int k=scan.nextInt();
 
         System.out.print("Coefficient-array: ");
-        // printing the binominal coefficient array
-        for (int i = 0; i <= k; i++)
+        for (int i = 0; i <= k; i++) { // printing the binominal coefficient array
             System.out.print(result(n, i) + " ");
+
+            // if (result(n, i) == result(n, k))
+            //     if (result(n, i + 1) == result(n, k))
+            //         continue;
+            //     else
+            //         break;
+        }
 
         System.out.println();
 
@@ -31,7 +27,8 @@ public class Main {
             // for (int j = 0; j <= n - i; j++)
             // System.out.print(" ");
 
-            for (int j = 0; j <= i; j++)
+            for (int j = 0; j <= i; j++) // for the actual numbers
+                // System.out.print(" " + factoriel(i) / (factoriel(j) * factoriel(i - j)));
                 System.out.print(result(i, j) + " ");
 
             System.out.println();
