@@ -3,7 +3,7 @@ The first project will take us to a world of numbers.
 The purpose of this project is to get acquainted with loops and branching mechanisms.
 Your task is to implement a program (in Java), that will analyze the given numbers. 
 The program must read an arbitrary number of numbers (integers) from the standard input 
-and write out (standard output) the following:
+and write out (standard output) the following: 
 
     number of elements (numbers)
     number of different numbers
