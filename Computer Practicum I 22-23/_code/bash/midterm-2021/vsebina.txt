@@ -1,0 +1,27 @@
+total 132
+drwxr-xr-x 14 maliot maliot  4096 Nov 23 16:07 .
+drwxr-xr-x  3 root   root    4096 Oct 23 15:12 ..
+-rw-r--r--  1 maliot maliot     1 Nov 19 22:43 .bash_aliases
+-rw-------  1 maliot maliot 40372 Nov 23 16:07 .bash_history
+-rw-r--r--  1 maliot maliot   220 Oct 21 19:28 .bash_logout
+-rw-r--r--  1 maliot maliot  3856 Nov 20 15:48 .bashrc
+-rw-r--r--  1 maliot maliot   944 Nov 18 23:04 .bbashrc
+drwxr-xr-x  3 maliot maliot  4096 Nov 14 16:45 .byobu
+drwxr-xr-x  4 maliot maliot  4096 Oct 31 12:49 .cache
+drwxr-xr-x  5 maliot maliot  4096 Nov 10 22:20 .config
+drwx------  3 maliot maliot  4096 Oct 21 20:13 .dbus
+drwx------  2 maliot maliot  4096 Oct 27 00:24 .emacs.d
+drwxr-xr-x  2 maliot maliot  4096 Oct 21 19:29 .landscape
+drwxr-xr-x  6 maliot maliot  4096 Oct 30 18:43 .local
+-rw-r--r--  1 maliot maliot     0 Nov 23 07:54 .motd_shown
+-rw-r--r--  1 maliot maliot   807 Oct 21 19:28 .profile
+drwx------  2 maliot maliot  4096 Oct 23 15:45 .ssh
+-rw-r--r--  1 maliot maliot     0 Oct 21 19:31 .sudo_as_admin_successful
+drwxr-xr-x  8 maliot maliot  4096 Nov 22 23:25 Desktop
+drwxr-xr-x  2 maliot maliot  4096 Oct 30 18:29 Documents
+drwxr-xr-x  2 maliot maliot  4096 Nov 11 15:57 IdeaProjects
+drwxr-xr-x  4 maliot maliot  4096 Nov  6 20:42 Videos
+-rw-r--r--  1 root   root      34 Oct 21 21:59 log.txt
+-rw-r--r--  1 maliot maliot     0 Nov 14 18:06 ordered_expenses.txt
+-rw-r--r--  1 maliot maliot   347 Nov 22 23:19 test.sh
+-rw-r--r--  1 maliot maliot  5856 Nov 22 23:20 vsebina.txt

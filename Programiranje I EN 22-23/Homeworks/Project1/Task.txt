@@ -24,3 +24,7 @@ and write out (standard output) the following:
 
 NOTE: the program must handle integer overflow. Just because the numbers are guarantied 
 to be integer does not guaranty that the result of some computation will be.
+
+
+//maximum occurence ako ima samo eden broj toa e brojot,
+//second smallest number ako prvite najmali broja se ednakvi

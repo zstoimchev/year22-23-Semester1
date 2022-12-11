@@ -1,0 +1,9 @@
+    1  mkdir Desktop/photos
+    2  find / -name '*jpg' -exec cp "{}" ./Desktop/photos \;
+    3  find / -name '*jpeg' -exec cp "{}" ./Desktop/photos \;
+    4  find / -name '*png' -exec cp "{}" ./Desktop/photos \;
+    5  rm ./Desktop/photos/*.png
+    6  tar -zcf ./Desktop/photos_personal.gz ./Desktop/photos
+    7  rm -r ./Desktop/photos
+    8  history >> zhivko_stoimchev_task1.txt
+

@@ -1,0 +1,17 @@
+#!/bin/bash
+#cases in bash, simple calculator
+a=$1
+b=$2
+c=$3
+
+if [ $# -lt 3 ]
+then
+	echo "Not suffifficient command line arguments."
+else
+	case $2 in
+		+) echo $((a+c)) ;;
+		-) echo $((a-c)) ;;
+		/) echo $((a/c)) ;;
+		x) echo $((a*c)) ;;
+	esac
+fi

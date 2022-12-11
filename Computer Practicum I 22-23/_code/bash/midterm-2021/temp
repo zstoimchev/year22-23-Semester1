@@ -1,0 +1,14 @@
+total 32
+-rw-r--r-- 1 maliot maliot    0 Nov 23 00:02 -type
+drwxr-xr-x 2 maliot maliot 4096 Nov 23 01:00 .
+drwxr-xr-x 8 maliot maliot 4096 Nov 22 23:25 ..
+-rw-r--r-- 1 maliot maliot   14 Nov 23 00:01 ...
+-rw-r--r-- 1 maliot maliot  193 Nov 23 01:00 task0.sh
+-rw-r--r-- 1 maliot maliot  232 Nov 23 00:03 task1.sh
+-rw-r--r-- 1 maliot maliot  522 Nov 22 23:35 task2.sh
+-rw-r--r-- 1 maliot maliot  490 Nov 23 00:24 task3.sh
+-rw-r--r-- 1 maliot maliot    0 Nov 23 01:00 temp
+-rw-r--r-- 1 maliot maliot 1489 Nov 23 00:03 vsebina.txt
+
+User: maliot
+OS: Linux
