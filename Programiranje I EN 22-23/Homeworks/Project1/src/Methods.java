@@ -35,16 +35,16 @@ public class Methods {
 
     public static String frequencyOfRepetition(int[] arr) { // to explain plus change flag
         String rwsult = "";
-        int[] temparr = new int[arr.length];
+        String[] temparr = new String[arr.length];
         for (int i = 0; i < arr.length; i++)
-            temparr[i] = arr[i];
+            temparr[i] = Integer.toString(arr[i]);
         for (int i = 0; i < temparr.length; i++) {
-            if (temparr[i] != 1001) {
+            if (temparr[i] != "*") {
                 int repeatNumber = 1;
                 for (int j = i + 1; j < temparr.length; j++) {
-                    if (temparr[i] == temparr[j]) {
+                    if (Integer.parseInt(temparr[i]) == Integer.parseInt(temparr[j])) {
                         repeatNumber++;
-                        temparr[j] = 1001;
+                        temparr[j] = "*";
                     }
                 }
                 rwsult += "\n\tNumber " + arr[i] + ": \t" + repeatNumber + " times, "
