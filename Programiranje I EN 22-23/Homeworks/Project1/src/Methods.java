@@ -83,7 +83,11 @@ public class Methods {
     }
 
     public static int secondSmallestNumber(int[] arr) {
-        return arr[1];
+        int i;
+        for (i = 1; i < arr.length; i++)
+            if(arr[i]!=arr[i-1])
+                return arr[i];
+        return arr[i];
     }
 
     public static float averageNumber(int[] arr) { // round decimals
