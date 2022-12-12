@@ -59,6 +59,8 @@ public class Methods {
         int maxcount = 1;
         int frequ = 0;
         String RESULT = "/"; // '/' stands for no repeating numbers
+        if (arr.length == 1)
+            RESULT = "" + arr[0];
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
             for (int j = 0; j < arr.length; j++) {
