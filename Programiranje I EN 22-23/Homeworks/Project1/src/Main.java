@@ -10,13 +10,16 @@ public class Main {
         System.out.println("Enter your elements with blank space in-between ");
         System.out.print("(NOTE: pressing enter will stop Your input and start the calculations!): ");
         arbitrary = scan.nextLine();
+        scan.close();
         // creating a string from the inputed string text
         String[] splited = arbitrary.split(" ");
         // creating new integer array with length of string array-splited
         int[] arr = new int[splited.length];
+        int[] org = new int[splited.length];
         // converting string to integer
         for (int i = 0; i < splited.length; i++) {
             arr[i] = Integer.parseInt(splited[i]);
+            org[i] = arr[i];
         }
 
         // removing the variable and temporarly used array, because we no longer need
@@ -32,16 +35,16 @@ public class Main {
         result[1] = "Number of different numbers:---- " + Methods.diffNumbers(arr); // ================DONE.
         result[2] = "Number of even numbers:--------- " + Methods.evenNumbers(arr); // ================DONE.
         result[3] = "Number of odd numbers:---------- " + Methods.oddNumbers(arr); // =================DONE.
-        result[4] = "Frequency of repetition in %:    " + Methods.frequencyOfRepetition(arr); // ======DONE.?
+        result[4] = "Frequency of repetition in % for:" + Methods.frequencyOfRepetition(org); // ======DONE.?
         result[5] = "Maximum occurence:-------------- " + Methods.maximumOccurence(arr); // ===========DONE.
         result[6] = "Largest number:----------------- " + Methods.largestNumber(arr); // ==============DONE.
         result[7] = "Second smallest number:--------- " + Methods.secondSmallestNumber(arr); // =======DONE.
         result[8] = "Average of all numbers:--------- " + Methods.averageNumber(arr); // ==============DONE.
-        result[9] = "Standard deviation:------------- " + Methods.standardDeviation(arr); // ==========DONE.?
+        ;result[9] = "Standard deviation:------------ " + Methods.standardDeviation(arr); // ==========DONE.?
         result[10] = "Median:------------------------ " + Methods.median(arr); // =====================DONE???
-        result[11] = "Sum of all numbers:------------- " + Methods.sum(arr); // =========================DONE.
-        result[12] = "Number of palindromic numbers:-- " + Methods.sumOfPalindromicNumbers(arr); // =====DONE.?
-        result[13] = "Largest palindromic number:----- " + Methods.largestPalindrom(arr); // ============DONE.?
+        result[11] = "Sum of all numbers:------------ " + Methods.sum(arr); // =========================DONE.
+        result[12] = "Number of palindromic numbers:- " + Methods.sumOfPalindromicNumbers(arr); // =====DONE.?
+        result[13] = "Largest palindromic number:---- " + Methods.largestPalindrom(arr); // ============DONE.?
         // NOTE: the program must handle integer overflow, Just because the numbers are
         // guarantied to be integers does
         // not guaranty that the result of some computations will be
@@ -49,6 +52,7 @@ public class Main {
         for (int i = 0; i < 14; i++) {
             System.out.println((i + 1) + ". " + result[i]);
         }
-        scan.close();
+        Methods.printReversed(org);
+
     } // closing main
 }

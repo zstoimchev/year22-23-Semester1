@@ -47,8 +47,7 @@ public class Methods {
                         temparr[j] = "*";
                     }
                 }
-                rwsult += "\n\tNumber " + arr[i] + ": \t" + repeatNumber + " times, "
-                        + (((float) repeatNumber / arr.length) * 100) + "%";
+                rwsult += "\n\tNumber " + arr[i] + ": \t" + (((float) repeatNumber / arr.length) * 100) + "%";
             }
         }
         temparr = null;
@@ -85,7 +84,7 @@ public class Methods {
     public static int secondSmallestNumber(int[] arr) {
         int i;
         for (i = 1; i < arr.length; i++)
-            if(arr[i]!=arr[i-1])
+            if (arr[i] != arr[i - 1])
                 return arr[i];
         return arr[i];
     }
@@ -144,24 +143,31 @@ public class Methods {
 
     public static String largestPalindrom(int[] arr) {
         String RESULT = "/";
-        boolean flag = false;
+        // boolean flag = false;
 
         if (largestNumber(arr) > 0) {
             for (int i = (arr.length - 2); i >= 0; i--) {
                 if (reversed(arr[i]) == arr[i]) {
                     RESULT = "" + arr[i];
-                    flag = true;
+                    // flag = true;
                     break;
                 }
             }
-            if (flag == false) {
-                for (int i = largestNumber(arr) - 1; i >= 0; i--)
-                    if (reversed(i) == i) {
-                        RESULT = "" + i;
-                        break;
-                    }
-            }
+            // if (flag == false) {
+            // for (int i = largestNumber(arr) - 1; i >= 0; i--)
+            // if (reversed(i) == i) {
+            // RESULT = "" + i;
+            // break;
+            // }
+            // }
         }
         return RESULT;
+    }
+
+    public static void printReversed(int[] arr){
+        int i;
+        for (i = arr.length-1; i > 0; i--)
+            System.out.print(arr[i]+", ");
+        System.out.print(arr[0]);
     }
 }
