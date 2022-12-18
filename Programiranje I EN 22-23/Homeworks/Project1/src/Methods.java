@@ -35,16 +35,16 @@ public class Methods {
 
     public static String frequencyOfRepetition(int[] arr) { // to explain plus change flag
         String rwsult = "";
-        String[] temparr = new String[arr.length];
+        int[] temparr = new int[arr.length];
         for (int i = 0; i < arr.length; i++)
-            temparr[i] = Integer.toString(arr[i]);
+            temparr[i] = arr[i];
         for (int i = 0; i < temparr.length; i++) {
-            if (temparr[i] != "*") {
+            if (temparr[i] != 0000) {
                 int repeatNumber = 1;
                 for (int j = i + 1; j < temparr.length; j++) {
-                    if (Integer.parseInt(temparr[i]) == Integer.parseInt(temparr[j])) {
+                    if ((temparr[i]) == (temparr[j])) {
                         repeatNumber++;
-                        temparr[j] = "*"; // keeping track of already checked numbers
+                        temparr[j] = 0000; // keeping track of already checked numbers
                     }
                 }
                 rwsult += "\n\tNumber " + arr[i] + ": \t" + (((float) repeatNumber / arr.length) * 100) + "%";
@@ -55,20 +55,28 @@ public class Methods {
     }
 
     public static String maximumOccurence(int[] arr) {
-        int maxcount = 1;
-        int frequ = 0;
+        int maxcount = 0;
+        int frequ = 0;  //the number with max occurence
         String result = "/"; // stands for no repeating numbers
-        if (arr.length == 1)
+        if (arr.length == 1){
             result = "" + arr[0];
+            return result;
+        }
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
             for (int j = 0; j < arr.length; j++) {
-                if (arr[i] == arr[j])
-                    count++;
-                else
+                if(i==j)
                     continue;
+                else {
+                    if (arr[i] == arr[j])
+                        count++;
+                    else
+                        continue;
+                }
             }
-            if (count > maxcount) {
+            if(count==maxcount)
+                result="/";
+            else if (count > maxcount) {
                 maxcount = count;
                 frequ = arr[i];
                 result = "" + frequ;
@@ -113,9 +121,9 @@ public class Methods {
     public static double median(int[] arr) {
         double result = 0;
         if (arr.length % 2 == 0)
-            result = (arr[arr.length / 2] + arr[(arr.length / 2) - 1]) / 2;
+            result = (double)(arr[arr.length / 2] + arr[(arr.length / 2) - 1]) / 2;
         else
-            result = arr[((arr.length + 1) / 2) - 1];
+            result = (double)arr[(arr.length + 1) / 2 - 1];
         return result;
     }
 
