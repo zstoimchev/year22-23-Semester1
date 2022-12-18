@@ -26,11 +26,11 @@ public class Methods {
     }
 
     public static int oddNumbers(int[] arr) {
-        int counter = 0;
-        for (int i = 0; i < arr.length; i++)
-            if (arr[i] / 2 * 2 != arr[i])
-                counter++;
-        return counter;
+        // int counter = 0;
+        // for (int i = 0; i < arr.length; i++)
+        // if (arr[i] / 2 * 2 != arr[i])
+        // counter++;
+        return arr.length - evenNumbers(arr);
     }
 
     public static String frequencyOfRepetition(int[] arr) { // to explain plus change flag
@@ -44,7 +44,7 @@ public class Methods {
                 for (int j = i + 1; j < temparr.length; j++) {
                     if (Integer.parseInt(temparr[i]) == Integer.parseInt(temparr[j])) {
                         repeatNumber++;
-                        temparr[j] = "*";
+                        temparr[j] = "*"; // keeping track of already checked numbers
                     }
                 }
                 rwsult += "\n\tNumber " + arr[i] + ": \t" + (((float) repeatNumber / arr.length) * 100) + "%";
@@ -57,9 +57,9 @@ public class Methods {
     public static String maximumOccurence(int[] arr) {
         int maxcount = 1;
         int frequ = 0;
-        String RESULT = "/"; // '/' stands for no repeating numbers
+        String result = "/"; // stands for no repeating numbers
         if (arr.length == 1)
-            RESULT = "" + arr[0];
+            result = "" + arr[0];
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
             for (int j = 0; j < arr.length; j++) {
@@ -71,25 +71,32 @@ public class Methods {
             if (count > maxcount) {
                 maxcount = count;
                 frequ = arr[i];
-                RESULT = "" + frequ;
+                result = "" + frequ;
             }
         }
-        return RESULT;
+        return result;
     }
 
     public static int largestNumber(int[] arr) {
         return arr[arr.length - 1];
     }
 
-    public static int secondSmallestNumber(int[] arr) {
-        int i;
-        for (i = 1; i < arr.length; i++)
-            if (arr[i] != arr[i - 1])
-                return arr[i];
-        return arr[i];
+    public static String secondSmallestNumber(int[] arr) {
+        String result = "/";
+        if (arr[0] == arr[arr.length - 1]) {
+            // System.out.println("No different numbers");
+            return result;
+        }
+
+        for (int i = 1; i < arr.length; i++)
+            if (arr[i] != arr[i - 1]) {
+                result = "" + arr[i];
+                break;
+            }
+        return result;
     }
 
-    public static float averageNumber(int[] arr) { // round decimals
+    public static float averageNumber(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++)
             sum += arr[i];
@@ -103,7 +110,7 @@ public class Methods {
         return Math.sqrt(diviation / (arr.length - 1));
     }
 
-    public static double median(int[] arr) {// ======================================
+    public static double median(int[] arr) {
         double result = 0;
         if (arr.length % 2 == 0)
             result = (arr[arr.length / 2] + arr[(arr.length / 2) - 1]) / 2;
@@ -119,10 +126,7 @@ public class Methods {
         return sum;
     }
 
-    // this function is later used in checking palindromes, because it is needed in
-    // more than one place, i decided to make it as a function not to write
-    // repeating code many times. It only returns reversed numbers, does not check
-    // anything
+    // this function is needed more than once, reason why I made it
     public static int reversed(int n) {
         int temp = n, reversed = 0;
         if (temp > 0)
@@ -145,21 +149,21 @@ public class Methods {
         String RESULT = "/";
         // boolean flag = false;
 
-        if (largestNumber(arr) > 0) {
-            for (int i = (arr.length - 2); i >= 0; i--) {
-                if (reversed(arr[i]) == arr[i]) {
-                    RESULT = "" + arr[i];
-                    // flag = true;
-                    break;
-                }
-            }
-            // if (flag == false) {
-            // for (int i = largestNumber(arr) - 1; i >= 0; i--)
-            // if (reversed(i) == i) {
-            // RESULT = "" + i;
+        if (largestNumber(arr) >= 2) {
+            // for (int i = (arr.length - 2); i >= 0; i--) {
+            // if (reversed(arr[i]) == arr[i]) {
+            // RESULT = "" + arr[i];
+            // // flag = true;
             // break;
             // }
             // }
+            // if(flag == false)
+
+            for (int i = largestNumber(arr) - 1; i >= 0; i--)
+                if (reversed(i) == i) {
+                    RESULT = "" + i;
+                    break;
+                }
         }
         return RESULT;
     }
