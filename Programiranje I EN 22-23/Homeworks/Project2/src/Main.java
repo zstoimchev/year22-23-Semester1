@@ -12,6 +12,8 @@ import java.awt.*;
 // import javax.swing.JPanel;
 
 public class Main {
+    static int counter;
+    //static JLabel label = new JLabel()      
     public static void main(String[] args) {
         int sum = 0;
         Random rand = new Random();
@@ -22,9 +24,9 @@ public class Main {
         panel.setLayout(new GridLayout(9, 9));
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
-                final int c = rand.nextInt(10);
-                sum = sum + c;
-                JButton b = new JButton("" + c);
+                counter = rand.nextInt(10);
+                sum = sum + counter;
+                JButton b = new JButton("" + counter);
                 b.setBackground(Color.BLUE);
                 b.setForeground(Color.WHITE);
                 b.setBorder(BorderFactory.createLineBorder(Color.BLACK));
@@ -35,7 +37,8 @@ public class Main {
                     @Override
                     public void actionPerformed(ActionEvent e) {
                         b.setBackground(new Color(234567));
-                        this.c=100;
+                        counter++;
+                        button.setTex
 
                     }
                 });
