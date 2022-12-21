@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1124bd01-4fa6-4b5c-aa38-abc86c15d26f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../gui/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gui/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gui/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gui/gui.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newGUI/Flake.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newGUI/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/newGUI/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gui/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +38,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="newGUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="newGUI" />
       <method v="2">
@@ -67,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>

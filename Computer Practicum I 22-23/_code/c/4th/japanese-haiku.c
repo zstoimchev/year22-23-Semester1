@@ -2,6 +2,6 @@
 #include <string.h>
 
 int main(){
-	char eden[5];
+	char sPoem[3][10];
 	return 0;
 }

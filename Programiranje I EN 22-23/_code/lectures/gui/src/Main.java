@@ -28,7 +28,7 @@ public class Main {
         for (int i = 0; i <9; i++) {
             for (int j = 0; j < 9; j++) {
                 JButton b = new JButton(""+i+","+j);
-                J
+
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent actionEvent) {
