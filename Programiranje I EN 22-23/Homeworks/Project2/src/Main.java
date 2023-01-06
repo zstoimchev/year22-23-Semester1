@@ -31,17 +31,17 @@ public class Main {
                 b.setForeground(Color.WHITE);
                 b.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 
-                b.putClientProperty( "page", i );
+                // b.putClientProperty( "page", i );
 
-                b.addActionListener(new ActionListener() {
-                    @Override
-                    public void actionPerformed(ActionEvent e) {
-                        b.setBackground(new Color(234567));
-                        counter++;
-                        button.setTex
+                // b.addActionListener(new ActionListener() {
+                //     @Override
+                //     public void actionPerformed(ActionEvent e) {
+                //         b.setBackground(new Color(234567));
+                //         counter++;
+                //         button.setTex
 
-                    }
-                });
+                //     }
+                // });
                 panel.add(b);
             }
         }
