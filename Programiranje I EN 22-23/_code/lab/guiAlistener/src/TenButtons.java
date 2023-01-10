@@ -14,7 +14,7 @@ public class TenButtons {
             if (i < n / 2) {
                 JButton button = new JButton();
                 char letter = (char) (rand.nextInt(25) + 'A');
-                button.setText(String.valueOf(letter));
+                button.setText(String.valueOf(letter));A
                 button.addActionListener(e -> {
                     button.setBackground(Color.BLUE);
                     button.setForeground(Color.WHITE);

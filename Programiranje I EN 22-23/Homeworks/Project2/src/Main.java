@@ -32,16 +32,18 @@ public class Main {
                 b.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 
                 // b.putClientProperty( "page", i );
+                counter=0;
 
-                // b.addActionListener(new ActionListener() {
-                //     @Override
-                //     public void actionPerformed(ActionEvent e) {
-                //         b.setBackground(new Color(234567));
-                //         counter++;
-                //         button.setTex
 
-                //     }
-                // });
+                b.addActionListener(new ActionListener() {
+                     @Override
+                     public void actionPerformed(ActionEvent e) {
+                         b.setBackground(new Color(234567));
+                         counter++;
+                         b.setText(""+counter);
+
+                     }
+                 });
                 panel.add(b);
             }
         }
