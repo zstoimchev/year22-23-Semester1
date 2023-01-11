@@ -5,38 +5,35 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class Main {
-    static int counter;
-    //static JLabel label = new JLabel()      
+    static int[][] counter = new int[9][9];
+    //static JLabel label = new JLabel()
+    static int i;
+    static int j;
     public static void main(String[] args) {
         int sum = 0;
         Random rand = new Random();
+
         JFrame frame = new JFrame();
         frame.setSize(800, 600);
 
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(9, 9));
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j < 9; j++) {
-                counter = rand.nextInt(10);
-                sum = sum + counter;
-                JButton b = new JButton("" + counter);
+        for (i = 0; i < 9; i++) {
+            for (j = 0; j < 9; j++) {
+                counter[i][j] = rand.nextInt(10);
+                sum = sum + counter[i][j];
+                JButton b = new JButton("" + counter[i][j]);
                 b.setBackground(Color.BLUE);
                 b.setForeground(Color.WHITE);
                 b.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 
-                // b.putClientProperty( "page", i );
-                counter=0;
 
+                b.addActionListener(e -> {
+                    b.setBackground(Color.CYAN);
+                });
 
-                b.addActionListener(new ActionListener() {
-                     @Override
-                     public void actionPerformed(ActionEvent e) {
-                         b.setBackground(new Color(234567));
-                         counter++;
-                         b.setText(""+counter);
-
-                     }
-                 });
+                
+                // b.setText("null");
                 panel.add(b);
             }
         }
