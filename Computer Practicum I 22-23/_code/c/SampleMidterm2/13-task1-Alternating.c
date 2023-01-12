@@ -5,11 +5,10 @@ int main(){
 	printf("Enter number (even): ");
 	scanf("%d", &dNum);
 
-	int dTemp=dNum+1;
+	int dTemp=dNum;
 
-	for(int i=1; i<=dNum; i++){
-		printf("%d %d ", i, dTemp-i);
-	}	
+	for(int i=0; i<dNum; i++)
+		printf("%d %d ", i+1, dTemp-i);
 	
 	return 0;
 }
