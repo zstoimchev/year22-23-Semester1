@@ -1,0 +1,2 @@
+problem 12!, not working for number 0
+

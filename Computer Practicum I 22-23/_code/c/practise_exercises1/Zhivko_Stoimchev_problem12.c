@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     int dLength;
     printf("Enter the length of the array: ");
     scanf("%d", &dLength);
@@ -8,29 +9,31 @@ int main(){
     int dArr[dLength];
     char dTemp[dLength];
 
-    for(int i=0; i<dLength; i++){
-        printf("Enter element %d: ", i+1);
+    for (int i = 0; i < dLength; i++)
+    {
+        printf("Enter element %d: ", i + 1);
         scanf("%d", &dArr[i]);
-        dTemp[i]=(char)dArr[i];
+        dTemp[i] = (char)dArr[i];
     }
 
-    int dCount1=0;
-    int dCount2=0;
-    for(int i=0; i<dLength; i++){
-        for(int j=0; j<dLength; j++){
-            dCount1=0;
-            if(dTemp[j]!='*'){
-                if(i==j){
+    int dCount1 = 0;
+    int dCount2 = 0;
+
+    for (int i = 0; i < dLength; i++){
+        if (dArr[i] != -00){
+            dCount1 = 0;
+            for (int j = i + 1; j < dLength; j++){
+                if (dArr[i] == dArr[j]){
                     dCount1++;
+                    dArr[j] = -00;
                 }
             }
-            if(dCount1>0)
+            if (dCount1 > 0){
                 dCount2++;
-            dTemp[j]='*';
+            }
+            dArr[i] = 321;
         }
     }
+
     printf("%d\n", dCount2);
-    
-
-
 }

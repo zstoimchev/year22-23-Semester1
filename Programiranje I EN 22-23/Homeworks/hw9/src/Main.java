@@ -9,6 +9,7 @@ public class Main {
         frame.setBounds(200,200,400,200);
 
         JLabel label = new JLabel("Hello, World!");
+        label.setFont(new Font("Arial", Font.PLAIN, 20));
         label.setHorizontalAlignment(JLabel.CENTER);
         frame.add(label, BorderLayout.CENTER);
 

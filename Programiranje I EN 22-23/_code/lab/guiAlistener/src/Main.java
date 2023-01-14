@@ -16,7 +16,7 @@ public class Main {
             counter++;
             label.setText("After increasing the value of the counter is: " + counter);
         });
-        frame.setLayout(new FlowLayout(FlowLayout.CENTER, 50, 50));
+            frame.setLayout(new FlowLayout(FlowLayout.CENTER, 50, 50));
         frame.add(button);
         frame.add(label);
 
