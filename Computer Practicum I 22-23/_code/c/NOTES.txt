@@ -1,0 +1,22 @@
+NOTES TO ASK
+
+    COMPOSITION: A tocka B, problem set 8, ex:2!!
+
+    ALSO ex:3 FROM problem set 8!!!
+
+    EVERYTHING ABOUT FUNCTIONS!!! shit :o :| :( :'(
+    
+    
+    abstract class za site elementi, site subklasi nasleduat se od master klasata
+    interface za nekoi elementi ka nasleduat subklasite
+    
+
+    za prazen set vazi: irreflexive, transitive, symmetric and antisymmetric.
+
+
+    NOTES FOR mARKO
+
+    problem set 8, 3x:6,
+    problem set 8, 3x:7,
+    problem set DO KRAJ!!
+

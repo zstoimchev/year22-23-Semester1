@@ -12,12 +12,12 @@ int main(){
 
     
 
-    if(dHours==12)
-        dHours=0;
-    if(dMinutes==60){
-        dMinutes=0;
-        dHours+=1;
-    }
+    // if(dHours==12)
+    //     dHours=0;
+    // if(dMinutes==60){
+    //     dMinutes=0;
+    //     dHours+=1;
+    // }
 
 
     dAngle=(dMinutes/5)*30+((1-(float)dMinutes/60)*30);
