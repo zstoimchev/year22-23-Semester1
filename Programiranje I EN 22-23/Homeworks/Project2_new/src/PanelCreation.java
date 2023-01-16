@@ -16,6 +16,12 @@ public class PanelCreation extends JPanel {
             case "bottom" -> {
                 setBackground(new Color(22, 61, 61));
             }
+            case "operation" -> {
+                setPreferredSize(new Dimension(50, getHeight()));
+                setAlignmentX(Component.RIGHT_ALIGNMENT);
+                setBorder(BorderFactory.createEmptyBorder(30,0,30,0));
+
+            }
         }
     }
 }

@@ -2,11 +2,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Arrays;
 import java.util.Random;
+
+import static java.lang.Integer.parseInt;
 
 public class Engine {
     private final Random rand = new Random();
-    private final JFrame frame = new JFrame();
+    private final JFrame frame = new JFrame("More or Less, Less is More");
     private final JButton[][] b = new JButton[9][9];
     private int[][] counter = new int[9][9];
     private int target = rand.nextInt(500);
@@ -16,6 +19,14 @@ public class Engine {
     LabelCreation sumLabel = new LabelCreation("sum", sum);
     private int previousValue;
     private int currentValue;
+    JPanel gridPanel = new JPanel(new GridLayout(9, 9));
+    private int indexi = 0, indexj = 0, previousvalue = 0;
+    private LabelCreation addition = new LabelCreation("operation", 0);
+    private LabelCreation subtraction = new LabelCreation("operation", 0);
+    private LabelCreation multiplication = new LabelCreation("operation", 0);
+    private LabelCreation division = new LabelCreation("operation", 0);
+
+
 
 
     Engine() {
@@ -23,8 +34,11 @@ public class Engine {
 
         // Set the menu bar for the frame
         frame.setJMenuBar(menuBar);
+
         //top panel
         JPanel topPanel = new JPanel(new BorderLayout());
+        topPanel.setPreferredSize(new Dimension(topPanel.getHeight(), 60));
+
         LabelCreation targetLabel = new LabelCreation("target", target);
         topPanel.add(targetLabel, BorderLayout.WEST);
         topPanel.add(movesLabel, BorderLayout.EAST);
@@ -32,7 +46,6 @@ public class Engine {
         topPanel.setBackground(new Color(22, 61, 61));
 
         //central grid
-        JPanel gridPanel = new JPanel(new GridLayout(9, 9));
         gridPanel.setBackground(new Color(0xAEC630));
         frame.add(gridPanel, BorderLayout.CENTER);
         //buttons, no action listener
@@ -45,6 +58,10 @@ public class Engine {
                 gridPanel.add(b[i][j]);
             }
         }
+
+        createOperations();
+
+
         sumLabel.setText("Sum: " + sum);
         //buttons, action listener
         for (int i = 0; i < 9; i++) {
@@ -57,6 +74,7 @@ public class Engine {
 
         //bottom panel for sum
         PanelCreation bottom = new PanelCreation("bottom", "", 3);
+        bottom.setPreferredSize(new Dimension(bottom.getHeight(), 60));
         frame.add(bottom, BorderLayout.SOUTH);
         bottom.add(sumLabel, BorderLayout.CENTER);
 
@@ -66,11 +84,45 @@ public class Engine {
         b[i][j].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                b[i][j].setBackground(Color.gray);
-                movesLabel.setText("Moves: " + ++moves);
+                movesLabel.setText("Moves: " + ++moves + " ");
 
-                sum += 5;
+                //highlight operation
+                String[] operations = {" + ", " - ", " * ", " / "};
+                int randomOperation = rand.nextInt(3);
+
+
+                //value malipulation
+                if (moves == 1) {
+                    indexi = i;
+                    indexj = j;
+                    previousvalue = parseInt(((JButton) e.getSource()).getText());
+
+                    //==========================================
+                    String temp = operations[randomOperation];
+                    highlightOperation(temp);
+
+                } else {
+                    int value = (parseInt(((JButton) e.getSource()).getText()) + previousvalue) % 10;
+                    System.out.println(value);
+                    b[indexi][indexj].setText("" + value);
+                    counter[indexi][indexj] = value;
+                    indexi = i;
+                    indexj = j;
+                    previousvalue = parseInt(((JButton) e.getSource()).getText());
+
+                    //===========================================
+                    String temp = operations[randomOperation];
+                    highlightOperation(temp);
+                }
+                sum = 0;
+                //reset counter
+                for (int k = 0; k < 9; k++) {
+                    for (int l = 0; l < 9; l++) {
+                        sum += counter[k][l];
+                    }
+                }
                 sumLabel.setText("Sum: " + sum);
+
 
             }
         });
@@ -109,5 +161,61 @@ public class Engine {
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 //        frame.setUndecorated(true);
         frame.setVisible(true);
+    }
+
+    public void createOperations(){
+        PanelCreation operation = new PanelCreation("operation", "", 0);
+        operation.setLayout(new BoxLayout(operation, BoxLayout.Y_AXIS));
+
+        addition.setText(" + ");
+        subtraction.setText(" - ");
+        multiplication.setText(" * ");
+        division.setText(" / ");
+
+        for (LabelCreation labelCreation : Arrays.asList(addition, subtraction, multiplication, division)) {
+            operation.add(Box.createVerticalGlue());
+            operation.add(labelCreation);
+        }
+        operation.add(Box.createVerticalGlue());
+
+        addition.setOpaque(true);
+//        addition.setBackground(Color.cyan);
+        subtraction.setOpaque(true);
+//        subtraction.setBackground(Color.cyan);
+        multiplication.setOpaque(true);
+//        multiplication.setBackground(Color.cyan);
+        division.setOpaque(true);
+//        division.setBackground(Color.cyan);
+
+        frame.add(operation, BorderLayout.EAST);
+    }
+
+    public void highlightOperation(String temp){
+        switch (temp){
+            case " + " -> {
+                addition.setBackground(Color.cyan);
+                subtraction.setBackground(null);
+                multiplication.setBackground(null);
+                division.setBackground(null);
+            }
+            case " - " -> {
+                addition.setBackground(null);
+                subtraction.setBackground(Color.cyan);
+                multiplication.setBackground(null);
+                division.setBackground(null);
+            }
+            case " * " -> {
+                addition.setBackground(null);
+                subtraction.setBackground(null);
+                multiplication.setBackground(Color.cyan);
+                division.setBackground(null);
+            }
+            case " / " -> {
+                addition.setBackground(null);
+                addition.setBackground(null);
+                addition.setBackground(null);
+                addition.setBackground(Color.cyan);
+            }
+        }
     }
 }
