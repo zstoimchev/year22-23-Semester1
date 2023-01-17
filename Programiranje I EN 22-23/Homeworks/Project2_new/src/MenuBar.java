@@ -1,8 +1,12 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class MenuBar extends JMenuBar {
     MenuBar(){
 //        JMenu menu = new JMenu("File");
+
+//        setBackground(new Color(234567));
+
         Menu menu1 = new Menu("File");
         menu1.setText("File");
         add(menu1);

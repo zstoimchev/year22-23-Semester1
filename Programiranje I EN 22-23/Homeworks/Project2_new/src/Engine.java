@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Random;
 
 import static java.lang.Integer.parseInt;
@@ -11,22 +12,17 @@ public class Engine {
     private final Random rand = new Random();
     private final JFrame frame = new JFrame("More or Less, Less is More");
     private final JButton[][] b = new JButton[9][9];
-    private int[][] counter = new int[9][9];
-    private int target = rand.nextInt(500);
+    private final int[][] counter = new int[9][9];
     private int moves = 0;
     private int sum = 0;
     private final LabelCreation movesLabel = new LabelCreation("moves", moves);
     LabelCreation sumLabel = new LabelCreation("sum", sum);
-    private int previousValue;
-    private int currentValue;
     JPanel gridPanel = new JPanel(new GridLayout(9, 9));
     private int indexi = 0, indexj = 0, previousvalue = 0;
-    private LabelCreation addition = new LabelCreation("operation", 0);
-    private LabelCreation subtraction = new LabelCreation("operation", 0);
-    private LabelCreation multiplication = new LabelCreation("operation", 0);
-    private LabelCreation division = new LabelCreation("operation", 0);
-
-
+    private final LabelCreation addition = new LabelCreation("operation", 0);
+    private final LabelCreation subtraction = new LabelCreation("operation", 0);
+    private final LabelCreation multiplication = new LabelCreation("operation", 0);
+    private final LabelCreation division = new LabelCreation("operation", 0);
 
 
     Engine() {
@@ -39,6 +35,7 @@ public class Engine {
         JPanel topPanel = new JPanel(new BorderLayout());
         topPanel.setPreferredSize(new Dimension(topPanel.getHeight(), 60));
 
+        int target = rand.nextInt(500);
         LabelCreation targetLabel = new LabelCreation("target", target);
         topPanel.add(targetLabel, BorderLayout.WEST);
         topPanel.add(movesLabel, BorderLayout.EAST);
@@ -58,9 +55,7 @@ public class Engine {
                 gridPanel.add(b[i][j]);
             }
         }
-
         createOperations();
-
 
         sumLabel.setText("Sum: " + sum);
         //buttons, action listener
@@ -90,19 +85,22 @@ public class Engine {
                 String[] operations = {" + ", " - ", " * ", " / "};
                 int randomOperation = rand.nextInt(3);
 
-
                 //value malipulation
                 if (moves == 1) {
                     indexi = i;
                     indexj = j;
                     previousvalue = parseInt(((JButton) e.getSource()).getText());
 
-                    //==========================================
+
+                    //==========================================EROR IN RANDOM SELECTING VALUE, HAS NEGATIVES
                     String temp = operations[randomOperation];
                     highlightOperation(temp);
 
                 } else {
-                    int value = (parseInt(((JButton) e.getSource()).getText()) + previousvalue) % 10;
+                    String temp = operations[randomOperation];
+                    highlightOperation(temp);
+                    int value = doCalc(parseInt(((JButton) e.getSource()).getText()), previousvalue, temp);
+
                     System.out.println(value);
                     b[indexi][indexj].setText("" + value);
                     counter[indexi][indexj] = value;
@@ -111,8 +109,7 @@ public class Engine {
                     previousvalue = parseInt(((JButton) e.getSource()).getText());
 
                     //===========================================
-                    String temp = operations[randomOperation];
-                    highlightOperation(temp);
+
                 }
                 sum = 0;
                 //reset counter
@@ -163,7 +160,7 @@ public class Engine {
         frame.setVisible(true);
     }
 
-    public void createOperations(){
+    public void createOperations() {
         PanelCreation operation = new PanelCreation("operation", "", 0);
         operation.setLayout(new BoxLayout(operation, BoxLayout.Y_AXIS));
 
@@ -190,8 +187,8 @@ public class Engine {
         frame.add(operation, BorderLayout.EAST);
     }
 
-    public void highlightOperation(String temp){
-        switch (temp){
+    public void highlightOperation(String temp) {
+        switch (temp) {
             case " + " -> {
                 addition.setBackground(Color.cyan);
                 subtraction.setBackground(null);
@@ -217,5 +214,18 @@ public class Engine {
                 addition.setBackground(Color.cyan);
             }
         }
+    }
+
+    public int doCalc(int now, int previous, String oppp) {
+        int res=0;
+        if (Objects.equals(oppp, " + "))
+            res= (now + previous) % 10;
+        else if (Objects.equals(oppp, " - "))
+            res= (now - previous) % 10;
+        else if (Objects.equals(oppp, " * "))
+            res= (now * previous) % 10;
+        else if (Objects.equals(oppp, " / "))
+            res= (now / previous) % 10;
+        return res;
     }
 }

@@ -1,5 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class test {
     public static void main(String[] args) {
@@ -47,6 +50,20 @@ public class test {
 //        label.setBackground(Color.CYAN);
 //        label.setBorder(BorderFactory.createLineBorder(Color.BLACK));
 //        frame.add(label, BorderLayout.EAST);
+// Assume you have a variable "score" that you want to save
+        int score = 100;
+
+        try {
+            FileWriter fw = new FileWriter("gameProgress.txt", true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(Integer.toString(score));
+            bw.newLine();
+            bw.close();
+            System.out.println("Progress saved!");
+        } catch (IOException e) {
+            System.out.println("An error occurred while saving progress.");
+            e.printStackTrace();
+        }
 
 
         // Exit the application when the user closes the frame

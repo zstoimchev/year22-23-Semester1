@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1124bd01-4fa6-4b5c-aa38-abc86c15d26f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../gui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gui/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../last/src/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../last/src/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../last/src/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../last/src/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/ActListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/ActionListenerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/Engine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/Engine$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/Engine$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/Engine$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/out/production/Project2_new/colorpaletes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/src/ActListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/src/ActionListenerMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Homeworks/Project2_new/src/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Homeworks/Project2_new/src/colorpaletes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +44,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
