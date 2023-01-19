@@ -1,7 +1,5 @@
 #include <stdio.h>
-
-int main()
-{
+int main(){
     int dLength;
     printf("Enter the length of the array: ");
     scanf("%d", &dLength);
@@ -36,4 +34,6 @@ int main()
     }
 
     printf("%d\n", dCount2);
-}
+}//check for duplicate elements in the array
+
+

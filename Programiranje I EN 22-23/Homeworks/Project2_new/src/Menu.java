@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Menu extends JMenu {
-    Menu(String type){
+    Menu(String type, JFrame frame){
         switch (type){
             case "File" -> {
                 JMenuItem menuItem1 = new JMenuItem("Save");
@@ -53,6 +53,7 @@ public class Menu extends JMenu {
                 menuItem1.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        frame.dispose();
                         Engine newGame = new Engine();
                         newGame.printGame();
 

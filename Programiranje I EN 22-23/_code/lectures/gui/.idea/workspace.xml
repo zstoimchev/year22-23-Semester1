@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec3af4a2-5d1f-4e99-b434-e882a16c9af9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../newGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../newGUI/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../preparationForMidterm/src/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../preparationForMidterm/src/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inheritance/out/production/inheritance/Honda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/out/production/inheritance/Honda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inheritance/out/production/inheritance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/out/production/inheritance/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inheritance/out/production/inheritance/Mazda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/out/production/inheritance/Mazda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inheritance/out/production/inheritance/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../inheritance/out/production/inheritance/Vehicle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />

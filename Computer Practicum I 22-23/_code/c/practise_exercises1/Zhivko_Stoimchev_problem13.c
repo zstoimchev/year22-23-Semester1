@@ -7,11 +7,6 @@ char check(char znak, char sTemp[]){
         return 1;
     else
         return 0;
-
-    // for (int i = 0; sTemp[i]!='\0'; i++)
-    //     if(znak==sTemp[i])
-    //         return 1;
-    // return 0;
 }
 
 int main(){
@@ -37,6 +32,8 @@ int main(){
         if(dCount>dLastCount)
             dLastCount=dCount;
     }
-    printf("Length of the longest substring without repeating characters: %d\n", dLastCount);
+    printf("Length of the longest substring without repeating "
+            "characters: %d\n", dLastCount);
     return 0;
 }
+

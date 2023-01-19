@@ -70,7 +70,6 @@ int main(){
 	return 0;
 }
 
-
 //defining functions
 
 void printTerroristRef(struct terrorist *t){

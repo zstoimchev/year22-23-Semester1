@@ -26,8 +26,7 @@ public class Engine {
 
 
     Engine() {
-        MenuBar menuBar = new MenuBar();
-
+        MenuBar menuBar = new MenuBar(frame);
         // Set the menu bar for the frame
         frame.setJMenuBar(menuBar);
 
@@ -90,8 +89,6 @@ public class Engine {
                     indexi = i;
                     indexj = j;
                     previousvalue = parseInt(((JButton) e.getSource()).getText());
-
-
                     //==========================================EROR IN RANDOM SELECTING VALUE, HAS NEGATIVES
                     String temp = operations[randomOperation];
                     highlightOperation(temp);
@@ -107,7 +104,6 @@ public class Engine {
                     indexi = i;
                     indexj = j;
                     previousvalue = parseInt(((JButton) e.getSource()).getText());
-
                     //===========================================
 
                 }
@@ -119,7 +115,6 @@ public class Engine {
                     }
                 }
                 sumLabel.setText("Sum: " + sum);
-
 
             }
         });
@@ -152,7 +147,6 @@ public class Engine {
     public void printGame() {
         //pack the frame
         frame.pack();
-
         frame.setSize(900, 400);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);

@@ -29,4 +29,7 @@ int main()
     check_prime(dCheck);
 
     return 0;
-}
+}//check for 1001 prime number
+
+
+
