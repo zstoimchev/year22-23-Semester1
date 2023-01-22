@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4fef9e48-a800-4c2c-adc4-92c1343a69d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2_FINAL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ActionListenerMy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2_new/src/Buttons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2_new/src/ConfigFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2_new/src/GameEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2_new/src/Labels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2_new/src/Panels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project2_new/src/StartingFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_code/lectures/lastOne/lastOne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_code/lectures/lastOne/src/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_code/lectures/lastOne/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/ButtonCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/LabelCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Menu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Menu$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Newframe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/PanelCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/test2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/test2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/ButtonCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ButtonCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/src/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/LabelCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabelCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/Newframe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/PanelCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PanelCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2_new/src/test2.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Kc5Rn1MyrDQjRMir8dZXShFYpj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Project2_FINAL" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fef9e48-a800-4c2c-adc4-92c1343a69d8" name="Changes" comment="" />
+      <created>1674261026214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674261026214</updated>
+      <workItem from="1674261027472" duration="421000" />
+      <workItem from="1674267777169" duration="3180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

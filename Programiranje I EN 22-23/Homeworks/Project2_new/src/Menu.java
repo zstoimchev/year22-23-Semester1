@@ -55,7 +55,7 @@ public class Menu extends JMenu {
                     public void actionPerformed(ActionEvent e) {
                         frame.dispose();
                         Engine newGame = new Engine();
-                        newGame.printGame();
+//                        newGame.printGame();
 
                     }
                 });
