@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-
 public class Buttons extends JButton {
     Buttons(int counter){
         setText("" + counter);

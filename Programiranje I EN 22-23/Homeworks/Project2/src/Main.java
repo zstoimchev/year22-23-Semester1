@@ -67,25 +67,6 @@ public class Main {
                         int i2 = i1;
                         int j2 = j1;
 
-                        //imcrease counter for moves
-                        movesDone++;
-                        moves.setText("Moves done: " + movesDone);
-
-                        //value manipulation
-                        now = counter[i2][j2];
-                        now = (now + previous) % 10;
-                        previous = now;
-                        counter[i2][j2] = now;
-
-                        //reset counter
-                        sum = 0;
-                        for (int kont1 = 0; kont1 < 9; kont1++)
-                            for (int kont2 = 0; kont2 < 9; kont2++)
-                                sum += counter[kont1][kont2];
-
-                        b[i2][j2].setText("" + counter[i2][j2]);
-                        bottomLabel.setText("Sum: " + sum);
-
                         //color cross
                         int k, s;
                         for (k = 0; k < 9; k++) {
@@ -106,7 +87,6 @@ public class Main {
 
                     }
                 });
-
                 // b.setText("null");
                 centerPanel.add(b[i][j]);
             }

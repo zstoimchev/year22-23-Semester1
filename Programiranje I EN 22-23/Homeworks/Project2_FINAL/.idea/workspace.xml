@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fef9e48-a800-4c2c-adc4-92c1343a69d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project2_FINAL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActionListenerMy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2_new/src/Buttons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2_new/src/ConfigFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2_new/src/GameEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2_new/src/Labels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2_new/src/Panels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project2_new/src/StartingFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../_code/lectures/lastOne/lastOne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../_code/lectures/lastOne/src/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../_code/lectures/lastOne/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/ButtonCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/LabelCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Menu$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Menu$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/Newframe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/PanelCreation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/test2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/test2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/out/production/Project2_new/test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/ButtonCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ButtonCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/src/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/LabelCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabelCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/Newframe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/PanelCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PanelCreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project2_new/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project2_new/src/test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674261026214</updated>
       <workItem from="1674261027472" duration="421000" />
-      <workItem from="1674267777169" duration="3180000" />
+      <workItem from="1674267777169" duration="3233000" />
+      <workItem from="1674346163088" duration="78000" />
     </task>
     <servers />
   </component>
