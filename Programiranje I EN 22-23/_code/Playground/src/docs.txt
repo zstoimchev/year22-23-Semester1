@@ -1,0 +1,20 @@
+abstract class
+
+    make the super class abstract, so that, it has abstract methods, empty apstract methods.
+
+    child classes, normal classes, inherit that methods, and overwrite them for their own options.
+
+    the abstract methods are things thar are common for all the child classes, but have different properties.
+
+example, canvas, has method render (renders square and circle)
+    but, square is not rendered the same as circle, so we create abstract canvas class, and add abstract methods.
+    int he child classes, square and circle, we overwrite that methods to work on our own calls
+
+
+Rrcursion!!//=========================
+    what is recursion consisted of? (2 things)
+        - base case, with no recursion call
+        - recursive call
+    what is recursion?
+        - recursion is a function that calls itself over and over again, untill a specific condition is fulfilled
+

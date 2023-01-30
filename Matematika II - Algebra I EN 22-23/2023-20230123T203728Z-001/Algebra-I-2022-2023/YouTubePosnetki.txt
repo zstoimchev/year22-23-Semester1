@@ -1,0 +1,189 @@
+﻿Vaje 1 - Vektorji
+https://youtu.be/PFxuspxT4pY
+https://youtu.be/e8tRwtgrft0
+
+Vaje 2 - Vektorji (nad.) - Algebrske operacije z vektorji. Linearna neodvisnost vektorjev
+https://youtu.be/0d5M7ThmXlM
+https://youtu.be/HL4RyOwcqjg
+
+Vaje 3 - Vektorji (nad.) - Enotski vektorji. Skalarni produkt. Vektorski produkt
+https://youtu.be/e8uYBWvEQEw
+https://youtu.be/LdEZK-QT4dg
+
+Vaje 4 - Geometrijski pomen vektorskega produkta. Mešani produkt. Premice.
+Za BF,MA,MF skupino sem pozabil vklopiti snemanje :( 
+(uporabi RIN povezavo spodaj)
+RIN: https://youtu.be/dIFWdLAm52Q
+(tukaj je tudi nekaj narobe: pozabil sem izklopiti slušalke in posledično, nekaj je narobe z zvokom :(
+
+Vaje 5 - Ravnine. Premice in ravnine. Presečišča in razdalje.
+https://youtu.be/mIvCfaxqFZs
+https://youtu.be/RhVs-Ty9rNo
+
+Vaje 6 - Pravokotna projekcija, Koti & Ponavljanje (priprava za 1. kolokvij)
+https://youtu.be/hzpx-lE2kvk
+https://youtu.be/awY_wtmzfwU
+
+
+------------------------------------------------------------------------------------
+------------------------- 1. kolokvije, 23. november 2022. -------------------------
+------------------------------------------------------------------------------------
+
+
+Vaje 7 - Matrike. Računske operacije z matrikami.
+https://youtu.be/C9-D7EpR2PQ
+https://youtu.be/_Y1He0v0s0I     (= RIN, druga šolsk ura)
+(za prvo uro sem pozabil vklopiti snemanje :( -- uporabite prvo povezavo zgoraj)
+
+Vaje 8 - Sistemi linearnih enačb. Vrstična ešalon oblika matrike. Rang matrike.
+https://youtu.be/qA5XiSOR2_s
+https://youtu.be/tEKTLfJSPJc
+
+Vaje 9 - Sistemi linearnih enačb (nad.). Inverzna matrika. Matrične enačbe.
+https://youtu.be/AXqarrXF-4A
+https://youtu.be/w6ghqvQ485A
+
+
+Vaje 10 - Determinante. Osnovne lastnosti determinant.
+(s posnetki je nekaj narobe: pozabil sem izklopiti slušalke in posledično, nekaj je narobe z zvokom :(
+
+Skupina MA,BF,MF: https://youtu.be/zda0tkjsFeg
+(prosim, si oglejte drugo uro vaj skupine RIN, kjer sem obravnaval več nalog glede računanja determinant)
+
+Skupina RIN: https://youtu.be/RRE2OavgNS4
+(prosim, si oglejte prvo uro vaj skupine MA,BF,MF, kjer sem obravnaval definicijo determinante, in končal več nalog glede definicije)
+
+
+Vaje 11 - Uporaba determinant: računanje obrnljive matrike, ranga in Cramerjevo pravilo
+https://youtu.be/4cGFj2kHkPI
+https://youtu.be/t-pvH_Z-Zbw
+
+Vaje 12 - Ponavljanje/priprava za 2. kolokvij
+https://youtu.be/X64cJmMgjRs
+https://youtu.be/aUQ1o8P1B-A
+
+
+
+Vaje 13 - Reševanje 2. kolokvija + Ponavljanje/priprava za izpit
+https://youtu.be/bhUpjqVpYq0
+
+Vaje 14 Ponavljanje/Priprava za izpit
+https://youtu.be/WuE3ACdg0eY
+
+
+
+-------------------------------------------------------------------------------------------------
+-------- 2. kolokvij bo v sredo, 11. januarja 2023 ob 8.00 v predavalnici FHŠ-Tramontana --------
+-------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------
+ALGERA I - ŠOLSKA 2020/21, ANGLEŠKA SKUPINA (FAMNIT)
+
+Šolske 2020/2021 sem imel vaje iz Algebre I za angleško skupino. Če nekoga zanimajo posnetki in zapiski za pouka (lahko jih morda uporabite kot dodatne naloge?), povezave lahko najdete spodaj:
+
+Google drive:
+https://drive.google.com/drive/folders/1SwJ_jfsB24Jju13AutV5XcqkRRf9N8nv?usp=share_link
+
+
+----------------
+Dve skupine sta:
+
+
+Group 1
+
+TS1: Vectors in the plane and space
+https://youtu.be/sG1v1OroCmg
+
+TS2: Linear independence, unit vectors and the dot product
+(I forget to record it - please use the link from the group 2 bellow)
+
+TS3: Geometrical meaning of the dot product and vector projections
+https://youtu.be/AWk1lkY622o
+
+TS4: Computing determinants of order 2, 3 and 4. The cross product.
+https://youtu.be/4XqqSgLrMFc
+
+TS5: Geometrical meaning of the cross product. The box product. Geometrical meaning of the box product.
+https://youtu.be/4PsGL130Ncc
+
+TS6: Lines and planes in R^3
+https://youtu.be/Xr0ITf-7dgc
+
+TS7: Lines and planes in RR^3 (cont.)
+https://youtu.be/qIfEn_fNf4s
+
+TS8: The algebra of matrices
+https://youtu.be/rdGgNqjlKz0
+
+TS9: Row echelon form and rank. Symmetric and Hermitian matrix.
+https://youtu.be/2XjDRhGvChM
+
+TS10: Linear Equations - Gaussian elimination with back substitution.
+https://youtu.be/RP4WHAeinso
+
+TS11: Linear Equations - Consistency of linear systems. Homogeneous systems.
+https://youtu.be/gY-QvC6tUjI
+
+TS12 
+Part 1: Gauss-Jordan method.
+https://youtu.be/n5folN40-Fk
+Part 2: Nonhomogeneous systems.
+https://youtu.be/Aa3JfOX9Wgk
+
+TS13: Systems of linear equations - problems from exam
+https://youtu.be/4-zX6QGxi_s
+
+TS14: Properties of matrix multiplication. Matrix Inversion. Computing an Inverse.
+https://youtu.be/81ewDKXpokM
+
+TS15: Cramer's Rule and some properties of determinants
+https://youtu.be/dOt7GPwkBB4
+----------------------------------
+----------------------------------
+Group 2
+TS1: Vectors in the plane and space
+https://youtu.be/tIouZHhRBpQ
+
+TS2: Linear independence, unit vectors and the dot product
+https://youtu.be/ozFd794ASfo
+
+TS3: Geometrical meaning of the dot product and vector projections
+https://youtu.be/agk5DwTYbJk
+
+TS4: Computing determinants of order 2, 3 and 4. The cross product.
+https://youtu.be/M_88bA8CFjs
+
+TS5: Geometrical meaning of the cross product. The box product. Geometrical meaning of the box product.
+https://youtu.be/HK4JOj44hvs
+
+TS6: Lines and planes in R^3
+https://youtu.be/JfNXOWP-b_M
+
+TS7: Lines and planes in RR^3 (cont.)
+https://youtu.be/IjEHxe_WVYU
+
+TS8: The algebra of matrices
+https://youtu.be/2gG-2FK24Kc
+
+TS9: Row echelon form and rank. Symmetric and Hermitian matrix.
+https://youtu.be/Vy2JDpcCkAM
+
+TS10: Linear Equations - Gaussian elimination with back substitution.
+https://youtu.be/0TZA8i-o7vA
+
+TS11: Linear Equations - Consistency of linear systems. Homogeneous systems.
+https://youtu.be/BaiL9DSAB5k
+
+TS12 
+Part 1: Gauss-Jordan method.
+https://youtu.be/n5folN40-Fk
+Part 2: Nonhomogeneous systems.
+https://youtu.be/Aa3JfOX9Wgk
+
+TS13: Systems of linear equations - problems from exam
+https://youtu.be/4-zX6QGxi_s
+
+TS14: Properties of matrix multiplication. Matrix Inversion. Computing an Inverse.
+https://youtu.be/ON8injiNw0g
