@@ -1,7 +1,0 @@
-Recursion in programming is a powerful technique for problem solving. In fact, it is a function that calls itself.
-When using recursion, our code looks much cleaner and more elegant. Recursion sometimes makes the program look simpler,
-but sometimes it can lead to integer overflow or memory overflow, such that we use all of our RAM memory.
-Most of the time, using recursion is fine, but there are some cases, such that, when using recursion, it can lead
-to more difficult-to-understand code, and harder to debug. 
-Good use of recursion, is when we can broke a problem into more smaller subproblems that can be solver easily.
-But sometimes, using recursion can cost performance and memory.
