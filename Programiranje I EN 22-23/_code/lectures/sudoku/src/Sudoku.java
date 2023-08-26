@@ -3,9 +3,6 @@ import java.util.Scanner;
 //import javax.swing.text.StyledEditorKit.ForegroundAction;
 
 public class Sudoku {
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         int arr[][] = { { 4, 8, 3, 9, 2, 1, 6, 5, 7 },
                 { 9, 6, 7, 3, 4, 5, 8, 2, 1 },
@@ -18,6 +15,7 @@ public class Sudoku {
                 { 6, 9, 5, 4, 1, 7, 3, 8, 2 } };
         Scanner scan = new Scanner(System.in);
 
+        System.out.println("Welcome to Sudoku!");
         while (!isSolved(arr)) {
             int i = scan.nextInt() - 1;
             int j = scan.nextInt() - 1;
@@ -32,12 +30,10 @@ public class Sudoku {
             if (isValid(arr, i, j, num))
                 arr[i][j] = num;
 
-            print(arr);
-
-            // scan.close();
-
+            // print(arr);
         }
-
+        System.out.println("You Win!");
+        scan.close();
     }
 
     public static boolean checkQuadrtant(int arr[][], int si, int sj, int ei, int ej) { // start i, end i, same for j
@@ -74,13 +70,14 @@ public class Sudoku {
                 if (arr[i][j] == 0)
                     return false;
             }
-            print(arr);
         }
+        print(arr);
+
         return checkQuadrants(arr);
     }
 
     public static boolean isValid(int arr[][], int i, int j, int x) {
-        int countCol = 0; // counter for duplicates, count short for counter
+        int countCol = 0; // counter for duplicates
         int countRow = 0;
         for (int k = 0; k < arr.length; k++) {
             if (arr[k][j] == x)
@@ -94,7 +91,6 @@ public class Sudoku {
             return false;
         else
             return true;
-
     }
 
     public static void print(int array[][]) {
@@ -106,10 +102,8 @@ public class Sudoku {
                     System.out.print("\u001B[31m|\u001B[0m" + array[i][j] + "|");
                 else
                     System.out.print(array[i][j] + "|");
-
             }
             System.out.println();
         }
     }
-
 }
