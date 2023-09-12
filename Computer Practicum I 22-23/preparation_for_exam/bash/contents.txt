@@ -1,0 +1,8 @@
+total 4.0K
+drwxrwxrwx 1 maliot maliot 512 Sep 12  2023 .
+drwxrwxrwx 1 maliot maliot 512 Sep 11 21:26 ..
+-rwxrwxrwx 1 maliot maliot   0 Sep 12  2023 contents.txt
+-rwxrwxrwx 1 maliot maliot 373 Sep 12  2023 task1.sh
+-rwxrwxrwx 1 maliot maliot  12 Sep 12  2023 zhiki_1.txt
+-rwxrwxrwx 1 maliot maliot  12 Sep 12  2023 zhiki_2.txt
+-rwxrwxrwx 1 maliot maliot  12 Sep 12  2023 zhiki_3.txt
