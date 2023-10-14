@@ -4,3 +4,5 @@ scp -r 89221056@student.famnit.upr.si:/home/studenti/famnit/89221056/Desktop/jav
 crontab				//a list of commands you want to execute in specific time
 
 tracert
+
+scp -r C:\Users\zivko\_Workspace\zstoimchev.github.io\* 89221056@student.famnit.upr.si:/home/studenti/famnit/89221056/public_html/portfolio
